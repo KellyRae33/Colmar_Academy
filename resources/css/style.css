@@ -1,0 +1,69 @@
+/*Universal Styles*/
+html{
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  font-size: 1.5rem;
+}
+h3{
+  font-size: 1rem;
+}
+h4{
+  font-size: .8rem;
+}
+h5{
+  font-size: .5rem;
+}
+p, span{
+  font-size: .7rem;
+  font-family: 'Raleway', sans-serif;
+}
+/*Navigation*/
+nav{
+  display: flex;
+  background-color: red;
+}
+
+/*Header*/
+header{
+  display: flex;
+  background-color: orange;
+}
+
+/*Articles*/
+.articles{
+  display: flex;
+  background-color: yellow;
+}
+
+/*Start Learning*/
+.learning{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 72px;
+  background-color: green;
+}
+.classes{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*Thesis Exhibit*/
+.thesis{
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
+.columns{
+  display: flex;
+}
+
+/*Footer*/
+footer{
+  display: flex;
+  background-color: purple;
+}
