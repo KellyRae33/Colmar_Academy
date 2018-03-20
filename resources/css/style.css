@@ -108,9 +108,11 @@ nav .logo{
 }
 
 @media only screen and (max-width: 480px) {
+  header{
+    padding-bottom: 32px;
+  }
   .subheader{
     padding-left: 16px;
-    padding-bottom: 32px;
   }
 }
 
@@ -125,11 +127,12 @@ header{
 .subheader h1{
   font-weight: bold;
   line-height: 1.75rem;
+  padding: 32px 0;
 }
 
 .subheader h3{
-  padding: 24px 0;
   line-height: 1.2rem;
+  padding-bottom: 24px;
 }
 
 .subheader a{
@@ -182,7 +185,7 @@ header{
 }
 .articles{
   display: flex;
-  padding: 32px 16px 0 16px;
+  padding: 16px 16px 32px 16px;
 }
 
 .story img{
@@ -225,6 +228,10 @@ header{
 }
 
 @media only screen and (max-width: 480px) {
+  .learning{
+    padding-bottom: 32px;
+    text-align: center;
+  }
   .learning h3{
     background-color: #DBDEE2;
     padding: 16px;
@@ -233,12 +240,9 @@ header{
   }
 }
 
-.learning{
-  text-align: center;
-}
-
 .learning h2{
-  padding: 32px 0;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .courses{
@@ -250,8 +254,9 @@ header{
 }
 
 .courses p{
-  padding: 8px 0 8px 16px;
+  padding: 8px 16px 8px 16px;
 }
+
 /*Thesis Exhibit*/
 @media only screen and (min-width: 480px) {
   .thesis{
@@ -260,15 +265,18 @@ header{
     align-items: center;
     padding: 0px 24px;
   }
-  .thesis h2{
-      padding-top: 32px;
-  }
   .first_column h3{
     padding: 24px 0 8px 0;
   }
 }
+
 .thesis{
   text-align: center;
+  padding-bottom: 24px;
+}
+
+.thesis h2{
+    padding: 32px 0 16px 0;
 }
 
 .first_column video{
