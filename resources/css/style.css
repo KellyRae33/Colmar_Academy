@@ -175,21 +175,22 @@ header{
     align-items: center;
     border: 1.5px solid #DBDEE2;
   }
+  .story .title{
+    width: 65%;
+  }
   .story img{
     width: 35%;
     padding: 16px;
   }
-  .story .title{
-    width: 65%;
+}
+@media only screen and (max-width: 480px) {
+  .story img{
+    width: 100%
   }
 }
 .articles{
   display: flex;
   padding: 16px 16px 32px 16px;
-}
-
-.story img{
-  width: 100%;
 }
 
 .story .title{
